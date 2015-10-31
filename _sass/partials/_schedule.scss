@@ -168,9 +168,7 @@ $small-label-width: 80px;
     @media (max-width: 767px) {
         padding-bottom: 20px;
         min-height: 90px;
-        border-right-width: 5px;
-        border-right-style: solid;
-        border-right-color: #ccc;
+        border-right: 5px solid #ccc;
         &:hover {
             transform: translateY(0);
         }

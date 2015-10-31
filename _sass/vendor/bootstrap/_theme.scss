@@ -42,8 +42,7 @@
 
   &:hover,
   &:focus  {
-    background-color: darken($btn-color, 12%);
-    background-position: 0 -15px;
+    background: darken($btn-color, 12%) 0 -15px;
   }
 
   &:active,

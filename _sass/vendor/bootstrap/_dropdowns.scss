@@ -109,8 +109,8 @@
   &:hover,
   &:focus {
     text-decoration: none;
-    background-color: transparent;
-    background-image: none; // Remove CSS gradient
+    // Remove CSS gradient
+    background: transparent none;
     @include reset-filter;
     cursor: $cursor-disabled;
   }
