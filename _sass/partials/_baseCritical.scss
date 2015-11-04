@@ -1,0 +1,32 @@
+// Font weights
+$light: 100;
+$regular: 300;
+
+// Base Font
+$base-font-size: 13px;
+
+// Colors
+$main-color: #03a9f4;
+$link-color: $main-color;
+$base-section-background-color: $link-color;
+
+// Global variables
+$base-transition: all .3s;
+$long-transition: all .5s;
+
+//Variables
+//== Jumbotron
+//
+//##
+$gray-base: #000 !default;
+$gray-lighter: lighten($gray-base, 93.5%) !default;
+// #eee
+$jumbotron-padding: 30px !default;
+$jumbotron-color: inherit !default;
+$jumbotron-bg: $main-color !default;
+$jumbotron-heading-color: inherit !default;
+$font-size-base: 14px !default;
+$jumbotron-font-size: ceil(($font-size-base * 1.5)) !default;
+$border-radius-large: 6px !default;
+$screen-sm-min:              768px !default;
+
